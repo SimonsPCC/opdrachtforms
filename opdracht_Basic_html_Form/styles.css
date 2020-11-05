@@ -1,0 +1,96 @@
+body {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray
+}
+
+.mainbody {
+    background-color: white;
+}
+
+header {
+    background-color: rgb(40, 49, 58);
+    border: 3px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.centertext {
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+main {
+    color: black;
+}
+
+.navlinks {
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.navlinks ul li {
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.navlinks a {
+    text-decoration: none;
+}
+
+.fotobg {
+    background-color: rgb(236, 236, 236);
+    border: 3px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
+.fotobg #foto {
+    padding: 50px 20px;
+}
+
+.formbg {
+    padding: 10px 20px 10px 10px;
+    background-color: rgb(236, 236, 236);
+    border: 3px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+.formbg .input {margin-top: 5px;
+;}
+
+.mooiedingen {
+    background-color: rgb(236, 236, 236);
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 3px solid black;
+    margin-bottom: 50px;
+}
+
+.mooiedingen h2 {
+    padding-left: 20px;
+}
+
+footer {
+    padding: 5px;
+    background-color: rgb(40, 49, 58);
+    border: 3px solid black;
+    color: white;
+}
+
+footer h3 {
+    margin-left: 20px;
+}
+
+/* mediaqueries */
+
+@media screen and (min-width:700px) {
+    body {
+        padding-left: 100px;
+        padding-right: 100px;
+        line-height: 20px;
+    }
+}
